@@ -16,9 +16,9 @@ wiki=WikipediaQueryRun(api_wrapper=api_wrapper)
 
 search=DuckDuckGoSearchRun(name="Search")
 
-st.title("🔎 LangChain - Chat with search")
+st.title("🔎 ChitChat with Langchain - Chat with search")
 """
-ChitChat with Langchain
+Hello! I am chatbot will help you to searching data.
 """
 
 ## Sidebar for settings
