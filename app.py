@@ -23,14 +23,7 @@ Try more LangChain 🤝 Streamlit Agent examples at [github.com/langchain-ai/str
 """
 
 ## Sidebar for settings
-from langchain.agents import AgentExecutor
 
-agent_executor = AgentExecutor(
-    agent=your_agent,
-    tools=your_tools,
-    handle_parsing_errors=True,  # This will auto-recover from parsing errors
-    verbose=True
-)
 st.sidebar.title("Settings")
 api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
 
